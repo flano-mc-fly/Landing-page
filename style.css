@@ -3,7 +3,8 @@
 }
 
 body {
-    display: flex;
+    background-color: black;
+    margin: 0;
 }
 
 .hero,
@@ -14,7 +15,7 @@ body {
 .hero {
     color: #fff;
     display: flex;
-    padding: 12px 48px;
+    padding: 12px 100px;
     flex-direction: column;
 }
 
@@ -36,21 +37,24 @@ body {
 
 .container {
     display: flex;
-    justify-content: stretch;
-    align-items: stretch;
+    justify-content: space-between;
+    align-items: center;
     padding: 48px 0;
+    flex-wrap: wrap;
 }
 
 .hero-image {
-    width: 500px;
-    flex: 1 1 0;
+    max-width: 50%;
+    min-width: 400px;
+    flex: 1 1 auto;
 }
 
 .hero-text {
     display: flex;
     flex-direction: column;
-    padding-right: 48px;
-    justify-content: flex-start;
+    justify-content: center;
+    max-width: 40%;
+    flex: 1 1 auto;
 }
 ul {
     list-style-type: none;
@@ -61,4 +65,15 @@ a {
     color:  #E5E7EB;
     padding-left: 50px;
     font-size: 18px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin: 4px 2px;
+    width: 100px;
+    border-radius: 8px;
+    flex: 0 1 auto;
 }
