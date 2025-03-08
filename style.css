@@ -112,10 +112,23 @@ h2 {
     flex: 0 1 auto;
 }
 
-.info-image {
-    max-width: 20%;
+.info-image { 
     min-width: 200px;
     flex: 0 1 auto;
     border: #3882F6 2px solid;
     border-radius: 8px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    margin: 0;
+    padding: 48px 20%;
+    text-align: center;
+}
+
+.person {
+    text-align: right;
 }
