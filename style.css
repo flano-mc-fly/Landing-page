@@ -132,3 +132,52 @@ h2 {
 .person {
     text-align: right;
 }
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: white;
+}
+
+.hire-us {
+    background-color: #3882F6;
+    display: flex;
+    margin: 48px 20%;
+    padding: 24px 48px;
+    color: #fff;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    flex: auto;
+}
+
+.hire-us-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: #fff 2px solid;
+    height: 30px;
+    padding: 0 5px;
+    flex: 0 0 auto;
+}
+
+h3 {
+    margin: 0;
+}
+.footer {
+    display: flex;
+    color: #E5E7EB;
+    justify-content: center;
+    margin: 0;
+    font-size: 18px;
+}
